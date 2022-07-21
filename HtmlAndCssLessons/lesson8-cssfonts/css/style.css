@@ -1,0 +1,22 @@
+/* h1{
+    color:red;
+    font-size: 25px;
+    background-color: green;
+
+} */
+/* p { */
+  /* color: green; */
+  /* line-height: 20px; */
+  /* font-style: italic; */
+  /* font-weight:900; */
+  /* text-transform: capitalize; */
+  /* letter-spacing: 100px; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* color: red; */
+
+
+/* } */
+
+p:nth-child(1){
+    color: red;
+}
