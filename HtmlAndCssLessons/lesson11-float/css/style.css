@@ -1,0 +1,10 @@
+img{
+    float: left;
+    /* float: right; */
+}
+.test{
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+
+}

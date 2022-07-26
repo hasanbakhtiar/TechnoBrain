@@ -1,0 +1,40 @@
+/* html{
+    font-size: 5px;
+} */
+.text span {
+  background-color: black;
+  color: white;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: hsla(226, 83%, 40%, 0.6);
+  /* background-color: rgba(0, 174, 255, .1); */
+  /* 
+    hex 
+    0123456789abcdef
+    min-0 max-f
+    #min-3 max-6 
+
+    
+    rgb
+    red green blue
+    min - 0 max-255
+    rgba
+        red green blue alpha
+    min - 0 max-255
+    hsl
+    hwb 
+    */
+}
+
+p {
+  /* font-size: 10em; */
+}
+/* 
+px
+em 1em = 16px
+rem 1rem = 16px
+vh - viewport height
+%
+*/
