@@ -1,0 +1,14 @@
+/* @import url('reset.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('custom.css');
+
+/* body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
