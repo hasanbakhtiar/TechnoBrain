@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+    height: 100px;
+    @include ortalama();
+    nav {
+        width: 70%;
+        ul{
+    @include ortalama();
+
+            li{
+                a{
+                    color: $qirmizi;
+                }
+            }
+        }
+    }
+}
