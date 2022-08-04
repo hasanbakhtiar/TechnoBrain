@@ -1,0 +1,20 @@
+.cards{
+    width: 100%;
+    height: 150vh;
+    @include a-center();
+    @include d-center();
+    .wrapper{
+        width: 90%;
+    height: 120vh;
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        .card{
+            width: 391px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+    }
+}

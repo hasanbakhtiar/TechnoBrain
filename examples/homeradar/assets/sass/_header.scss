@@ -1,0 +1,90 @@
+header {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+  width: 100%;
+  height: 70px;
+  @include a-center();
+  @include d-around();
+
+//   Search Start
+  .search {
+    input {
+      width: 120px;
+      border-radius: 10px;
+      border: none;
+      background-color: #eee;
+      padding: 5px 15px;
+    }
+  }
+//   Search End
+
+//   Nav Start
+  nav{
+    width: 37%;
+    @include d-end();
+    ul{
+        width: 50%;
+        @include d-between();
+        li{
+            a{
+                font-size: 15px;
+                color: #000;
+                font-family: sans-serif;
+            }
+        }
+    }
+  }
+//   Nav End
+
+// btn-right Start
+.right-nav{
+    width: 15%;
+    @include d-end();
+    button{
+        background-color: #fff;
+        height: 70px;
+        border: none;
+        border-left: 1px solid #eee;
+        span{
+            margin-left: 15px;
+        }
+        i{
+            color: rgb(152, 152, 152);
+            
+        }
+    }
+    .glob-hover{
+        &:hover p{
+            opacity: 1;
+        }
+        position: relative;
+   
+        p{
+            position: absolute;
+            opacity: 0;
+            @include d-center();
+            @include a-center();
+            width: 100px;
+            height: 50px;
+            background-color: rgb(108, 108, 232);
+        }
+    }
+}
+// btn-right End
+
+// header-btn Start
+.header-btn{
+    width: 10%;
+    @include d-center();
+    button{
+        border: none;
+        background-color: rgb(108, 108, 232);
+        color: #fff;
+        padding: 10px 20px;
+    }
+}
+// header-btn End
+
+
+}

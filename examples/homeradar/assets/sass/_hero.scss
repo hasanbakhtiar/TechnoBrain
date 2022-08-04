@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../img/hero-bg.jpg");
+  .hero-bg-color {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    @include a-center;
+    @include d-center();
+    .wrapper {
+      * {
+        font-family: sans-serif;
+      }
+      width: 70%;
+      height: 40vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      p {
+        color: #fff;
+        font-size: 17px;
+      }
+      h3 {
+        font-size: 45px;
+        color: #fff;
+      }
+      .input-three {
+        @include a-center();
+        @include d-center();
+        width: 45%;
+        height: 50px;
+        background-color: #fff;
+        * {
+          border: none;
+        }
+        input[type=text]{
+            border: 1px solid #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@mixin a-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin d-between {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin d-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin d-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin d-around {
+  display: flex;
+  justify-content: space-around;
+}
+@mixin d-start {
+  display: flex;
+  justify-content: flex-start;
+}
+@mixin d-end {
+  display: flex;
+  justify-content: flex-end;
+}
