@@ -1,0 +1,16 @@
+.k-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.k-wrapper .k-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.k-wrapper .k-box:hover {
+  height: 200px;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
