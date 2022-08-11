@@ -1,0 +1,75 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    // animation-name: aysel;
+    // animation-duration: 1s;
+    // animation-iteration-count: infinite;
+    animation: hereket 5s infinite;
+    // animation-delay: 2s;
+}
+
+@keyframes hereket {
+    // from{left: 0px;}
+    // to{left: 100px;}
+    0%{
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+    25%{
+        left: 300px;
+        top: 0px;
+        background-color: orange;
+    }
+    50%{
+        // width: 300px;
+        transform: rotate(360deg);
+        left: 300px;
+        top: 300px;
+        background-color: rgb(200, 0, 255);
+    }
+    75%{
+        left: 0px;
+        top: 300px;
+        background-color: rgb(119, 255, 0);
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: rgb(37, 244, 255);
+    }
+}
+
+#gear{
+    font-size: 40px;
+    color: red;
+    // animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: spinner 3s infinite ;
+    animation-timing-function: linear;
+    
+}
+@keyframes spinner {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+#warning{
+color: rgb(255, 196, 0);
+animation: alert 2s infinite linear;
+margin: 100px;
+}
+@keyframes alert {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+        color: yellow;
+    }
+    0%{
+        transform: scale(1);
+    }
+}
