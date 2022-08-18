@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+header nav ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+header nav ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
