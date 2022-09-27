@@ -1,0 +1,14 @@
+menu {
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+  transition: 1s;
+}
+
+#hide {
+  transform: translateX(-500px);
+}
+
+#show {
+  transform: translateX(0);
+}/*# sourceMappingURL=style.css.map */
