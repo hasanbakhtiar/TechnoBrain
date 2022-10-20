@@ -1,0 +1,19 @@
+<carList>
+    <car id='1'>
+        <brand>BMW</brand>
+        <color>red</color>
+        <year>2022</year>
+    </car>
+
+    <car id='2'>
+        <brand>BMW</brand>
+        <color>red</color>
+        <year>2022</year>
+    </car>
+
+    <car id='3'>
+        <brand>BMW</brand>
+        <color>red</color>
+        <year>2022</year>
+    </car>
+</carList>
