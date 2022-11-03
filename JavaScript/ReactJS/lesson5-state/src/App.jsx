@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Counter from './components/Counter'
+import Login from './components/Login'
  class App extends Component {
   render() {
     return (
-      <div><Counter/></div>
+      <div><Login/></div>
     )
   }
 }

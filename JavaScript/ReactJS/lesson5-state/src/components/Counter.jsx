@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 class Counter extends Component {
     constructor(){
         super();
-        this.increment = this.increment.bind(this);
-        this.decrement = this.decrement.bind(this);
+        // this.increment = this.increment.bind(this);
+        // this.decrement = this.decrement.bind(this);
         this.state={
             count:0
         }
         
     }
-    decrement(){
+    decrement=()=>{
         if (this.state.count>0) {
         this.setState({
             count:this.state.count-1
@@ -19,7 +19,7 @@ class Counter extends Component {
 
     }
 
-    increment(){
+    increment=()=>{
       
         this.setState({
             count:this.state.count+1
