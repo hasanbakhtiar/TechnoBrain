@@ -1,11 +1,12 @@
 import { ADD_BLOG, EDIT_BLOG, REMOVE_BLOG } from "../constants/blogConstants"
 import { v4 as uuid } from 'uuid';
-export const addBlog=({title,desc})=>({
+export const addBlog=({title,desc,img})=>({
     type:ADD_BLOG,
     blog:{
         id:uuid(),
         title:title,
-        desc:desc
+        desc:desc,
+        img:img
     }
 })
 
