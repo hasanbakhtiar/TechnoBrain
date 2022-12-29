@@ -8,7 +8,7 @@ const SingleTable = ({img,title,desc,id}) => {
     <td><img width="50" src={img} alt={title} /></td>
     <td>{title}</td>
     <td>{desc}</td>
-    <td><Link to={`edit/${id}`} className='btn btn-warning'>Edit </Link></td>
+    <td><Link to={`/edit/${id}`} className='btn btn-warning'>Edit </Link></td>
   </tr>
   )
 }

@@ -8,7 +8,7 @@ const Dashboard = props => {
     <>
     <h1 className='text-center my-5'>Blog Admin Dashboard</h1>
     <Link to="add" className='btn btn-dark'>Add</Link>
-    <table class="table">
+    <table className="table">
   <thead>
     <tr>
       <th scope="col">#</th>

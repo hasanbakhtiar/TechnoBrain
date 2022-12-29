@@ -15,11 +15,11 @@ const Nav = () => {
           <NavLink className="nav-link" to=".">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="blogs">Blog</NavLink>
+          <NavLink className="nav-link" to="/blogs">Blog</NavLink>
         </li>
       </ul>
       <div className="d-flex" role="search">
-        <Link className="btn btn-outline-warning" to="login"><i class="fa-solid fa-lock"></i></Link>
+        <Link className="btn btn-outline-warning" to="/login"><i className="fa-solid fa-lock"></i></Link>
       </div>
     </div>
   </div>

@@ -1,13 +1,11 @@
 import React,{useState} from 'react'
-import { useNavigate } from 'react-router-dom';
 const user  = {
     email:"hasan@webluna.az",
     pass:'hasan123'
 }
-const Login = () => {
+const Login = (porps) => {
     const [email,setEmail] = useState('');
     const [pass,setPass] = useState('');
-    const navigate = useNavigate();
 
     const loginFrom =(e)=>{
         e.preventDefault();
@@ -16,7 +14,7 @@ const Login = () => {
           alert('please, fill input')
         }else{
             if (email === user.email && pass === user.pass) {
-                navigate('/admin');
+              porps.history.push('/admin')
             }else{
                 alert('email or password is wrong!')
             }

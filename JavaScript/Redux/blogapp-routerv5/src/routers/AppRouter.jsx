@@ -22,7 +22,7 @@ const AppRouter = () => {
           <Route path="/login" component={Login }></Route>
           <Route path="/admin" exact component={Dashboard }></Route>
           <Route path="/add" component={AddBlog }></Route>
-          <Route path="/edit/:url" component={EditBlog }></Route>
+          <Route path="/edit/:id" component={EditBlog }></Route>
           <Route component={NotFoundPage }></Route>
         </Switch>
       </div>
